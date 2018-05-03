@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div id="div1">这是一个元素</div>
+
+
+	<script type="text/javascript">
+		window.onload = function() {
+			var a = document.getElementById("div1");
+			var txt = a.innerHTML;
+			a.innerHTML = '<a href="www.baidu.com">百度一下</a>';
+		}
+	</script>
+</body>
+</html>
